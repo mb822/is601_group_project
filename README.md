@@ -7,3 +7,9 @@
 
 ## Attendance:
 [Attendance.md](Attendance.md)
+
+## Persona:
+[Persona.md](Persona.md)
+
+## SalesFunnel:
+[SalesFunnel,md](SalesFunel.md)
