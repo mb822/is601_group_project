@@ -1,13 +1,24 @@
-# F23 IS601 Attendance
-| Date         | Michael | Luis    | Eesha   |
-|--------------|---------|---------|---------|
-| Nov 7, 2023  |✅      |✅       |✅      |
-| Nov 9, 2023  |         |✅      |         |
-| Nov 14, 2023 |         |         |         |
-| Nov 16, 2023 |         |         |         |
-| Nov 21, 2023 |         |         |         |
-| Nov 23, 2023 |         |         |         |
-| Nov 28, 2023 |         |         |         |
-| Dec 5, 2023  |         |         |         |
-| Dec 7, 2023  |         |         |         |
-| Dec 12, 2023 |         |         |         |
+# F23 IS601 Group Project
+
+## Group Members:
+- Michael Brzostek
+- Luis Leon
+- Eesha Pasupuleti
+
+## Attendance:
+[Attendance.md](Attendance.md)
+
+## Competitive Analysis:
+[Competitive_Analysis.md](Competitive_Analysis.md)
+
+## SWOT Analysis:
+[SWOT_Analysis.md](SWOT_Analysis.md)
+
+## Persona:
+[Persona.md](Persona.md)
+
+## Sales Funnel:
+[SalesFunnel.md](SalesFunnel.md)
+
+## Initial User Stories:
+[Initial_User_Stories.md](Initial_User_Stories.md)
