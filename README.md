@@ -12,4 +12,4 @@
 [Persona.md](Persona.md)
 
 ## SalesFunnel:
-[SalesFunnel,md](SalesFunel.md)
+[SalesFunnel.md](SalesFunel.md)
