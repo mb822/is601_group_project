@@ -1,5 +1,5 @@
 # F23 IS601 Group Project
-Hosted on [Vercel](is601-group-project.vercel.app)
+Hosted on [Vercel](https://is601-group-project.vercel.app)
 
 ## Group Members:
 - Michael Brzostek
