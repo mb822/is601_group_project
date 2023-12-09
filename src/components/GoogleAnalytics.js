@@ -35,10 +35,12 @@ const GoogleAnalytics = () => {
         This website uses cookies to enhance your experience.
       </CookieConsent>
       <Script
+        id="ga-s1"
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-PWLN5LZHSX"
       />
       <Script
+        id="ga-s2"
         strategy="afterInteractive"
       >
         {`
