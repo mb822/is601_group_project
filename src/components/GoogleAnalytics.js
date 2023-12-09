@@ -1,7 +1,17 @@
 import Script, { ScriptProps } from "next/script";
-import CookieConsent from "react-cookie-consent";
+import {useState, useEffect} from 'react';
+import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
 
 const GoogleAnalytics = () => {
+  const [cookieConsent, setCookieConsent] = useState(getCookieConsentValue('FitFarmCookieConsent') || false);
+
+    useEffect(() => {
+    console.log( cookieConsent ? 'granted' : 'denied');
+    window.gtag('consent', 'update', {
+      'analytics_storage': cookieConsent ? 'granted' : 'denied'
+    });
+  },[cookieConsent]);
+
   return (
     <>
       <CookieConsent
@@ -9,6 +19,8 @@ const GoogleAnalytics = () => {
         buttonText="I understand"
         cookieName="FitFarmCookieConsent"
         expires={365}
+        onAccept={() => {setCookieConsent(true)}}
+        onDecline={() => {setCookieConsent(false)}}
       >
         This website uses cookies to enhance your experience.
       </CookieConsent>
