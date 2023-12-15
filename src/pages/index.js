@@ -1,8 +1,14 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function LandingPage() {
   return (
     <>
+      <Head>
+        <title>FitFarm - The Ultimate Whole Food Sources</title>
+        <meta name="description" content="Saddle up for a wild ride with FitFarm's Eggceleent eggs, the outlaw of nutritional treasures. These bad boys in blue shells are the renegades of the coop, delivering a powerful punch of essential nutrients straight from free-spirited, naturally-raised hens. Unleash the untamed goodness and make every meal an adventure with these outlaw eggs." />
+        <meta name="keywords" content="araucana chicken, shell eggs, eggs, ultimate food source" />
+      </Head>
       <h1>
         Welcome to FitFarm!
       </h1>
