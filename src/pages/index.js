@@ -1,8 +1,12 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function LandingPage() {
   return (
     <>
+      <Head>
+        <title>FitFarm - The Ultimate Whole Food Sources</title>
+      </Head>
       <h1>
         Welcome to FitFarm!
       </h1>
