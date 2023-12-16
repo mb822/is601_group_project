@@ -3,6 +3,7 @@ import Head from 'next/head';
 import NavBar from '@/components/NavBar';
 import Hero from '@/components/Hero';
 import Products from '@/components/Products';
+import About from '@/components/About';
 
 export default function LandingPage() {
   return (
@@ -15,6 +16,7 @@ export default function LandingPage() {
       <NavBar/>
       <Hero/>
       <Products/>
+      <About/>
     </>
   );
 }
