@@ -17,12 +17,11 @@ const Products = () => {
                 <div className="relative col-span-5">
                   <Image
                     alt="FitFarm Eggcelent Eggs Quad"
-                    className="object-cover"
+                    className="object-cover rounded-none"
                     height={300}
                     shadow="md"
                     src="/images/fitfarm_eggcelent_eggs_quad.png"
                     width="100%"
-                    className="rounded-none"
                   />
                 </div>
 
