@@ -41,6 +41,38 @@ const Products = () => {
               </div>
             </CardBody>
           </Card>
+          <Card isFooterBlurred isDisabled  className="w-full h-[300px] col-span-1">
+            <CardHeader className="absolute z-10 top-1 flex-col items-start">
+              <h2 className="text-2xl">Protein Powder</h2>
+            </CardHeader>
+            <Image
+              removeWrapper
+              alt="FitFarm Protein Powder"
+              className="z-0 w-full h-full object-cover"
+              src="/images/fitfarm_protein_powder.png"
+            />
+            <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10">
+              <div>
+                <p className="text-tiny">Available soon.</p>
+              </div>
+            </CardFooter>
+          </Card>
+          <Card isFooterBlurred isDisabled className="w-full h-[300px] col-span-1">
+            <CardHeader className="absolute z-10 top-1 flex-col items-start">
+              <h2 className="text-2xl">Protein Packed Pancakes</h2>
+            </CardHeader>
+            <Image
+              removeWrapper
+              alt="FitFarm Pancakes"
+              className="z-0 w-full h-full object-cover"
+              src="/images/fitfarm_protein_pancakes.png"
+            />
+            <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10">
+              <div>
+                <p className="text-tiny">Available soon.</p>
+              </div>
+            </CardFooter>
+          </Card>
         </div>
       </div>
     </section>
