@@ -11,25 +11,31 @@ import {
 
 const NavBar = () => {
   return (
-    <Navbar>
+    <Navbar
+      style={{
+        background: "transparent",
+        backdropFilter: "none"
+      }}
+    className="absolute"
+    >
       <NavbarContent>
         <NavbarBrand>
-          <h1 class="text-4xl">FitFarm</h1>
+          <h1 className="text-4xl">FitFarm</h1>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#products" class="text-xl">
+          <Link color="foreground" href="#products" className="text-xl">
             Our Products
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#about" class="text-xl">
+          <Link color="foreground" href="#about" className="text-xl">
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#social" class="text-xl">
+          <Link color="foreground" href="#social" className="text-xl">
             Outlaw Social
           </Link>
         </NavbarItem>
