@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import NavBar from '@/components/NavBar';
 
 export default function LandingPage() {
   return (
@@ -9,13 +10,7 @@ export default function LandingPage() {
         <meta name="description" content="Saddle up for a wild ride with FitFarm's Eggceleent eggs, the outlaw of nutritional treasures. These bad boys in blue shells are the renegades of the coop, delivering a powerful punch of essential nutrients straight from free-spirited, naturally-raised hens. Unleash the untamed goodness and make every meal an adventure with these outlaw eggs." />
         <meta name="keywords" content="araucana chicken, shell eggs, eggs, ultimate food source" />
       </Head>
-      <h1>
-        Welcome to FitFarm!
-      </h1>
-      <h4>
-        Home of the Eggcelent Eggs.
-      </h4>
-      <Link href="/products/eggcelent-eggs">Eggcelent Eggs product page</Link>
+      <NavBar/>
     </>
   );
 }

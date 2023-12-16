@@ -1,3 +1,4 @@
+import '@/styles/global.css';
 import { NextUIProvider } from "@nextui-org/react";
 import {useRouter} from 'next/router';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
