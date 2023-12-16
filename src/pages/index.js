@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import NavBar from '@/components/NavBar';
+import Hero from '@/components/Hero'
 
 export default function LandingPage() {
   return (
@@ -11,6 +12,7 @@ export default function LandingPage() {
         <meta name="keywords" content="araucana chicken, shell eggs, eggs, ultimate food source" />
       </Head>
       <NavBar/>
+      <Hero/>
     </>
   );
 }
