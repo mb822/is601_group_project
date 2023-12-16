@@ -11,7 +11,6 @@ const Hero = () => {
         layout="fill"
         objectFit="cover"
         quality={100}
-        objectFit="cover"
         className="bg-right"
       />
       <div className="w-full max-w-[1024px] px-6">
