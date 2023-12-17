@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       colors: {
         'fitfarm-green': '#6fa86d',
-        'fitfarm-midnight': '#17181C'
+        'fitfarm-midnight': '#17181C',
+        'fitfarm-yellow': '#ffd700'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
