@@ -4,6 +4,7 @@ import NavBar from '@/components/NavBar';
 import Hero from '@/components/Hero';
 import Products from '@/components/Products';
 import About from '@/components/About';
+import Social from '@/components/Social';
 
 export default function LandingPage() {
   return (
@@ -17,6 +18,7 @@ export default function LandingPage() {
       <Hero/>
       <Products/>
       <About/>
+      <Social/>
     </>
   );
 }
