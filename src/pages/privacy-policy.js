@@ -56,13 +56,13 @@ export default function PrivacyPolicy() {
           2.1 Personal Information
         </h3>
         <p>
-          We use your personal information to provide you with the services you've requested, communicate with you, and customize your experience on FitFarm. We may also use your information for marketing purposes, such as sending newsletters and promotional materials.
+          We use your personal information to provide you with the services you&apos;ve requested, communicate with you, and customize your experience on FitFarm. We may also use your information for marketing purposes, such as sending newsletters and promotional materials.
         </p>
         <h3 className="text-xl">
           2.2 Non-Personal Information
         </h3>
         <p>
-          Non-personal information is used to analyze trends, track user movement, and gather demographic information for aggregate use. This information helps us improve our website and tailor it to our users' needs.
+          Non-personal information is used to analyze trends, track user movement, and gather demographic information for aggregate use. This information helps us improve our website and tailor it to our users&apos; needs.
         </p>
         <h2 className="text-2xl">
           3. Cookies and Google Analytics
@@ -80,7 +80,7 @@ export default function PrivacyPolicy() {
           We use Google Analytics to collect and analyze information about how visitors use our site. Google Analytics uses cookies to track your interactions with FitFarm. This information is used to compile reports and improve our website. Google Analytics may also collect demographic and interest information.
         </p>
         <p>
-          For more information on how Google Analytics collects and processes data, please visit Google's Privacy & Terms.
+          For more information on how Google Analytics collects and processes data, please visit Google&apos;s Privacy & Terms.
         </p>
         <h2 className="text-2xl">
           4. Third-Party Links
