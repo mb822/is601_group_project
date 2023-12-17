@@ -3,6 +3,8 @@ import {usePathname, useSearchParams} from 'next/navigation';
 import {useState, useEffect} from 'react';
 import {pageview} from '@/utils/ga4.js';
 import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
+import React from "react";
+import {Link} from "@nextui-org/react";
 
 const GoogleAnalytics = () => {
   const [cookieConsent, setCookieConsent] = useState(getCookieConsentValue('FitFarmCookieConsent') || false);
@@ -32,7 +34,14 @@ const GoogleAnalytics = () => {
         onAccept={() => {setCookieConsent(true)}}
         onDecline={() => {setCookieConsent(false)}}
       >
-        This website uses cookies to enhance your experience.
+        This website uses cookies to enhance your experience. Check out our
+        <Link
+          href="/privacy-policy"
+          className="text-fitfarm-green"
+        >
+          &nbsp;Privacy Policy&nbsp;
+        </Link>
+        for more information. 
       </CookieConsent>
       <Script
         id="ga-s1"
