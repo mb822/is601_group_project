@@ -18,7 +18,7 @@ const Hero = () => {
           Wanna know my secret?
         </h1>
         <h3 className="w-[405px] text-3xl relative mt-[45px]">
-          I signed up! You can do so to get 50% off my first order
+          I signed up! You can do so to get 50% off your first order
         </h3>
         <Button
           radius="12px"
